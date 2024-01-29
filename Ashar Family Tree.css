@@ -1,0 +1,29 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+#familyTree {
+    display: flex;
+    flex-direction: column; /* Stack rows vertically */
+    align-items: center;    /* Center horizontally */
+    margin-top: 20px;
+}
+
+.row {
+    display: flex; /* Display characters in a row */
+}
+
+.character {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.character:hover {
+    background-color: #45a049;
+}
